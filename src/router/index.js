@@ -9,6 +9,14 @@ const router = createRouter({
       name: 'home',
       component: HomeView
     },
+
+    // Dribble
+    // https://dribbble.com/shots/23150038-Honne-Real-Estate-Mobile-Apps
+    {
+      // path: '/',
+      // name: 'home',
+      // component: HomeView
+    },
     {
       path: '/about',
       name: 'about',

@@ -1,9 +1,11 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import HonneRealEstate from '@/components/HonneRealEstate.vue';
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
+  <main class="grid grid-cols-1 p-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+
+    <HonneRealEstate />
+    
   </main>
 </template>

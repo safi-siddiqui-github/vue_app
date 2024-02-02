@@ -1,4 +1,6 @@
 import './assets/main.css'
+import PerfectScrollbar from 'vue3-perfect-scrollbar'
+import 'vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
@@ -10,5 +12,6 @@ const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
+app.use(PerfectScrollbar)
 
 app.mount('#app')
