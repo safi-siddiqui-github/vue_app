@@ -1,7 +1,7 @@
 {
   "name": "vue_app",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "type": "module",
   "homepage": "https://safi-siddiqui-github.github.io/vue_app/",
   "repository": {
